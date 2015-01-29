@@ -37,8 +37,7 @@ while not sio.closed:
         print('i: ' + str(i), end=", ")
         print('al: ' + str(al), end=", ")
         print('ah: ' + str(ah), end=" ")
+        print()
 
     except ValueError:
         print("Conversion error")
-
-    print()
